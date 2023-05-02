@@ -35,12 +35,12 @@ public class Main {
 
 
         HashMap studentHashMap = new HashMap();
-        studentHashMap.put(1,"Hardeek");
-        studentHashMap.put(2,"Hardeek");
-        studentHashMap.put(6,"Yash");
-        studentHashMap.put(1,"Mihir");
-        studentHashMap.put(7,"Suresh");
-        studentHashMap.put(8,"Suresh");
+        studentHashMap.put(1, "Hardeek");
+        studentHashMap.put(2, "Hardeek");
+        studentHashMap.put(6, "Yash");
+        studentHashMap.put(1, "Mihir");
+        studentHashMap.put(7, "Suresh");
+        studentHashMap.put(8, "Suresh");
         System.out.println("HashMap cant have duplicate keys here is the list of students = ");
         Iterator hashMapItr = studentHashMap.entrySet().iterator();
         while (hashMapItr.hasNext()) {
@@ -67,12 +67,12 @@ public class Main {
 
 
         TreeMap studentTreeMap = new TreeMap();
-        studentTreeMap.put(1,"Hardeek");
-        studentTreeMap.put(2,"Hardeek");
-        studentTreeMap.put(6,"Yash");
-        studentTreeMap.put(1,"Mihir");
-        studentTreeMap.put(7,"Suresh");
-        studentTreeMap.put(8,"Suresh");
+        studentTreeMap.put(1, "Hardeek");
+        studentTreeMap.put(2, "Hardeek");
+        studentTreeMap.put(6, "Yash");
+        studentTreeMap.put(1, "Mihir");
+        studentTreeMap.put(7, "Suresh");
+        studentTreeMap.put(8, "Suresh");
         System.out.println("HashMap cant have duplicate keys here is the list of students = ");
         Iterator treeMapItr = studentTreeMap.entrySet().iterator();
         while (treeMapItr.hasNext()) {

@@ -73,7 +73,7 @@ public class Main {
         studentTreeMap.put(1, "Mihir");
         studentTreeMap.put(7, "Suresh");
         studentTreeMap.put(8, "Suresh");
-        System.out.println("HashMap cant have duplicate keys here is the list of students = ");
+        System.out.println("TreeMap cant have duplicate keys here is the list of students = ");
         Iterator treeMapItr = studentTreeMap.entrySet().iterator();
         while (treeMapItr.hasNext()) {
             Map.Entry eachStudent = (Map.Entry) treeMapItr.next();
